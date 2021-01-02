@@ -1,4 +1,4 @@
-# Data-structures
+# <a href="https://en.wikipedia.org/wiki/Data_structure">Data Structure</a>
 In this repository, I am uploading the implementations of various Data Structures.
 
 ## Implementations includes:-
