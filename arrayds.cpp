@@ -66,7 +66,7 @@ void ViewArray(Array *arr)
    int i;
    for (i=0;i<=arr->lastIndex;i++)
    {
-      cout << arr->ptr[i] << " " << endl;
+      cout << arr->ptr[i] << " ";
    }
 }
 
