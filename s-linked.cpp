@@ -163,12 +163,13 @@ void SLL::DeleteNode(int searchItem)
 void SLL::ViewItem()
 {
    Node *temp;
-   while(temp->next!=NULL)
+   while(temp!=NULL)
    {
-      temp = temp->next;
       cout << temp->item << " ";
+      temp = temp->next;   
    }
 }
+
 
 // Menu Function.
 int Menu()
