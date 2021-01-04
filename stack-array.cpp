@@ -92,7 +92,7 @@ int main()
          case 1:
             cout << "Enter the size of stack you want :- ";
             cin  >> cap;
-            CreateStack(cap);
+            arr = CreateStack(cap);
             break;
          case 2:
             cout << "Enter the data that you wanna push :- ";
