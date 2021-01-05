@@ -1,5 +1,8 @@
-<h1 align = "center"> <a href="https://en.wikipedia.org/wiki/Data_structure">Data Structure</a></h1>
+<h1 align = "center"> <a href="https://en.wikipedia.org/wiki/Data_structure">What are Data Structure</a></h1>
 
+<p>A data structure is a particular way of organizing data in a computer so that it can be used effectively.
+
+For example, we can store a list of items having the same data-type using the array data structure.</p>
 In this repository, I am uploading the implementations of various Data Structures.
 
 ## Implementations includes:-
