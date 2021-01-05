@@ -1,4 +1,5 @@
-# <a href="https://en.wikipedia.org/wiki/Data_structure"><align="center">Data Structure</a>
+<h1 align = "center"> <a href="https://en.wikipedia.org/wiki/Data_structure">Data Structure</a></h1>
+
 In this repository, I am uploading the implementations of various Data Structures.
 
 ## Implementations includes:-
