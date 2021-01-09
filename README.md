@@ -8,9 +8,9 @@ For example, we can store a list of items having the same data-type using the ar
 <li>In this repository, I am uploading the implementations of various Data Structures.</li>
 </pre>
 
-<h2 align="center"> Implementations includes</h2>
 
 <pre>
+<h2 align="center"> Implementations includes</h2>
 <li><a href="https://www.geeksforgeeks.org/array-data-structure/">Array Data Structure</a></li>
 <li><a href="https://www.geeksforgeeks.org/how-do-dynamic-arrays-work/">Dynamic Array Data Structure</a></li>
 <li><a href="https://www.educative.io/edpresso/what-is-a-singly-linked-list">Singly Linked List</a></li>
