@@ -1,4 +1,9 @@
-<h1 align = "center"> <a href="https://en.wikipedia.org/wiki/Data_structure">What are Data Structure</a></h1>
+<h2 align="center">H o l a &nbsp; A m i g o s <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35px"></h2>
+
+
+<pre>
+<h1 align = "center"> <a href="https://en.wikipedia.org/wiki/Data_structure">What are Data Structures</a></h1>
+</pre>
 
 <pre>
 <p>A data structure is a particular way of organizing data in a computer so that it can be used effectively.
