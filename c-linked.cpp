@@ -178,15 +178,8 @@ void CLL::ViewItems()
    }
 }
 
-lete specific item of your choice" << endl;
-   cout << "7. E.X.I.T" << endl;
-   cout << "\n\nEnter your choice:- "; 
-   cin  >> choice;
-   return choice;
-}
 
-// main function
-int main()// Menu function
+// Menu function
 int Menu()
 {
    int choice;
@@ -196,7 +189,15 @@ int Menu()
    cout << "3. Insert item at your choice" << endl;
    cout << "4. Delete item from last" << endl;
    cout << "5. Delete item from beginning" << endl;
-   cout << "6. De
+   cout << "6. Delete specific node" << endl;
+   cout << "7. E.X.I.T" << endl;
+   cout << "\n\nEnter your choice:- "; 
+   cin  >> choice;
+   return choice;
+}
+
+// Main function
+int main()
 {
    CLL obj;
    int item,pos;
