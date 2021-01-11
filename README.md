@@ -17,14 +17,10 @@ For example, we can store a list of items having the same data-type using the ar
 <li><a href="https://www.geeksforgeeks.org/doubly-linked-list/">Doubly Linked List</a></li>
 <li><a href="https://www.geeksforgeeks.org/circular-linked-list/">Circular Linked List</a></li>
 <li><a href="https://www.geeksforgeeks.org/doubly-circular-linked-list-set-1-introduction-and-insertion/">Doubly Circular Linked List</a></li>
-<li><a href="https://www.geeksforgeeks.org/stack-data-structure-introduction-program/">Stack implemented through array</a</li>
-
-<li><a href="https://www.geeksforgeeks.org/stack-data-structure-introduction-program/">Stack implemented through linked list</a</li>
-
-<li><a href="https://www.geeksforgeeks.org/array-implementation-of-queue-simple/">Queue implemented through array</a</li>
-
-<li><a href="https://www.geeksforgeeks.org/queue-linked-list-implementation/">Queue implemented through linked list</a</li>
-
-<li><a href=""></a</li>
-<li><a href=""></a</li>
+<li><a href="https://www.geeksforgeeks.org/stack-data-structure-introduction-program/">Stack implemented through array</a></li>
+<li><a href="https://www.geeksforgeeks.org/stack-data-structure-introduction-program/">Stack implemented through linked list</a></li>
+<li><a href="https://www.geeksforgeeks.org/array-implementation-of-queue-simple/">Queue implemented through array</a></li>
+<li><a href="https://www.geeksforgeeks.org/queue-linked-list-implementation/">Queue implemented through linked list</a></li>
+<li><a href="https://www.geeksforgeeks.org/binary-search-tree-data-structure/"></a>Binary Search Tree</li>
+<li><a href=""></a></li>
 </pre>
