@@ -9,3 +9,26 @@
 */
 
 
+#include <iostream>
+#include <stdio.h>
+
+using namespace std;
+
+class BST
+{
+private:
+   struct node
+   {
+
+   };
+public:
+   BST(){}
+   ~BST(){}
+};
+
+
+int main()
+{
+   
+   return 0;
+}
