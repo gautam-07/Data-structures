@@ -14,31 +14,25 @@
 
 using namespace std;
 
-class BST
+struct node
 {
-private:
-   struct node
-   {
-      node *left;
-      int item;
-      node *right;
-   };
-   node *root;
-
-public:
-   BST() { root = NULL; }
-   int  Insert(data);
-   void InOrder();
-   void PreOrder();
-   void PostOrder();
-   ~BST() {}
+   node *left;
+   int item;
+   node *right;
 };
-// Menu Function
+
+// Function Declaration
+
+int Insert(node **, int);
+void InOrder(node *);
+void PreOrder(node *);
+void PostOrder(node *);
 int Menu();
 
 
+
 // Function Definition
-void BST::InOrder()
+void InOrder(node *root)
 {
    if(root)
    {
@@ -49,7 +43,7 @@ void BST::InOrder()
 }
 
 
-void BST::PreOrder()
+void PreOrder(node* root)
 {
    if (root)
    {
@@ -60,7 +54,7 @@ void BST::PreOrder()
 }
 
 
-void BST::PostOrder()
+void PostOrder(node *root)
 {
    if (root)
    {
@@ -71,21 +65,21 @@ void BST::PostOrder()
 }
 
 
-int BST::Insert(int data)
+int Insert(int data,node **root)
 {
    node *n = new node;
    node *temp;
    n->left = NULL;
    n->right = NULL;
    n->item = data;
-   if (root == NULL)
+   if (*root == NULL)
    {
-      root = n;
+      *root = n;
       return 1;
    }
    else
    {
-      temp = root;
+      temp = *root;
       while(1)
       {
          if (temp->item == data)
@@ -134,7 +128,7 @@ int Menu()
 // Main Function
 int main()
 {
-   BST obj;
+   node *root = NULL;
    int data;
    while (1)
    {
@@ -143,19 +137,19 @@ int main()
          case 1:
             cout << "Enter the data that you wanna insert ";
             cin >> data;
-            if(obj.Insert(data))
+            if(Insert(&root,data))
                cout << "Data Inserted Successfully" << endl;
             else
                cout << "Duplicate Values Not Allowed" << endl;
             break;
          case 2:
-            obj.InOrder();
+            InOrder(root);
             break;
          case 3:
-            obj.PreOrder();
+            PreOrder(root);
             break;
          case 4:
-            obj.PostOrder();
+            PostOrder(root);
             break;
          case 6:
             exit(0);
